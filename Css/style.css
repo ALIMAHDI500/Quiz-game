@@ -1,0 +1,129 @@
+
+* {
+    
+   box-sizing:content-box
+}
+
+
+
+h1{
+
+    text-align: center;
+}
+
+
+body{
+
+    justify-items: space-between;
+    background-color: rgb(124, 193, 228);
+    font-family: Arial, Helvetica, sans-serif;
+       
+}#Maths{
+
+    color: rgb(50, 135, 205);
+    background-color: rgba(238, 255, 0, 0.774);
+    font-weight:bold;
+    font-size: 25px;
+}
+
+
+#Technologey{
+
+ color: rgb(195, 205, 50);
+    background-color: rgba(0, 119, 255, 0.774);
+    font-weight:bold;
+    font-size: 25px;
+
+}
+#Scince{
+     color: rgb(122, 50, 205);
+    background-color: rgba(0, 255, 76, 0.774);
+    font-weight:bold;
+    font-size: 25px;
+
+}
+
+#Maths_Sections{
+
+  display: none;
+ 
+  height: 300px;
+}
+
+ 
+/* style of divs */
+div{
+
+       display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* make the Questions none diplay evevn Click Maths Sections and change value for it in JS */
+.Maths-box-questions1,.Maths-box-questions2,.Maths-box-questions3,.Maths-box-questions4,.Maths-box-questions5{
+
+         display:none;   
+            font-weight: bold;
+     
+}
+
+
+
+
+/* style for Control Sections */
+#controlButton{
+
+ visibility: hidden;
+display: flex;
+justify-items: center;
+background-color:rgb(26, 214, 142);
+flex-direction: row;
+}
+
+
+
+#btncategorey{
+
+
+    display: flex;
+    background-color: rgb(27, 155, 187);
+           font-weight: bold;
+}
+#TechnologeySections{
+
+    display: none;
+
+    
+}
+
+/* make the Questions none diplay evevn Click Technology Sections and change value for it in JS */
+
+.Techo-box-questions1,.Techo-box-questions2,.Techo-box-questions3,.Techo-box-questions4,.Techo-box-questions5{
+
+display: none;
+   font-weight: bold;
+}
+#ScinceSections{
+    
+    display: none;
+}
+
+/* make the Questions none diplay evevn Click Scinece Sections and change value for it in JS */
+
+.Science-box-questions1,.Science-box-questions2,.Science-box-questions3,.Science-box-questions4,.Science-box-questions5{
+
+
+    display: none;
+           font-weight: bold;
+
+}
+
+#Instructions{
+
+ font-family: 'Times New Roman', Times, serif;
+ color: rgba(39, 34, 34, 0.993);
+
+}
+    
+

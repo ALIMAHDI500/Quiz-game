@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <script defer src="./JS/app.js"></script>
+    <link rel="stylesheet" href="Css/style.css">
+ 
+</head>
+<body>
+    
+
+<h1> Welecome To Education Quiz game </h1>
+
+
+<!-- Explain the rule of games -->
+<h2 id="Instructions"> Instructions  <P> To play in this game, you should select one of the categories below, and the rules are that you will see MCQ Questions and Options, and you need to select the right one.
+    Option and press the submit button, and you will see if you select the right option or not by sound and other effects, and after that, you need to press the next button to move to the next question
+    And after you have completed All Questions, you will see the result and points, and see if you win or lose. On the other hand, you can try again and reset the game by clicking the reset button. 
+    Allah blessings
+
+
+</P></h2>
+
+
+<!-- Put the categey in sections to Manage it easliy -->
+<div id="categorey">
+
+ <button id="Maths" > Maths </button>
+
+<button id="Technologey"> Technologey</button>
+
+<button id="Scince"> Science</button>
+
+
+
+</div>
+
+
+<!-- Crete div to put All Questiones and options to control of them  -->
+
+<div id="Maths_Sections"> 
+
+<h2> Maths </h2>
+<div class="Maths-box-questions1">
+<h3> 1.  What is the total of 5 + 5</h3>
+
+<!-- Identfiy uniqe id for Answer option yo use it in JS -->
+<input type="radio" id="" name="text"><label>A. 15</label><br>
+<input type="radio" id="ANS1_Math" name="text"><label>B. 10</label><br>
+<input type="radio" id="" name="text"><label>C. 7 </label><br>
+<input type="radio" id="" name="text"><label>D. 9 </label><br>
+
+<br>
+
+
+</div>
+
+
+   
+
+
+<div class="Maths-box-questions2"> 
+<h3> 2.  What is the total of 5 + 7</h3>
+
+<input type="radio" id="ANS2_Math" name="text"><label>A. 12 </label><br>
+<input type="radio" id="" name="text"><label>B. 19  </label><br>
+ <input type="radio" id="" name="text"><label>C. 18  </label><br>
+ <input type="radio" id="" name="text"><label>D. 16  </label><br>
+
+
+</div>
+
+
+<div class="Maths-box-questions3">      
+
+<h3> 3. What the total of 5*6  </h3>
+
+ <input type="radio" id="" name="text"><label>A.29   </label><br>
+ <input type="radio" id="" name="text"><label>B.25  </label><br>
+<input type="radio" id="ANS3_Math" name="text"><label>C.30   </label><br>
+<input type="radio" id="" name="text"> <label>D.20 </label><br>
+
+
+
+
+</div>
+
+
+<div class="Maths-box-questions4">    
+
+<h3> 4. What the total of 4500/100  </h3>
+
+ <input type="radio" id="" name="text"><label>A.50</label><br>
+<input type="radio" id="" name="text"><label>B.20 </label><br>
+<input type="radio" id="" name="text"><label>C.10 </label><br>
+<input type="radio"id="ANS4_Math" name="text"><label>D.45 </label><br>
+
+
+</div>
+<div class="Maths-box-questions5">    
+<h3> 5. What the total of 2700-570 </h3>
+
+ <input type="radio" id="" name="text"> <label>A.1750 </label><br>
+<input type="radio" id="" name="text"><label>B.2050   </label><br>
+<input type="radio" id="ANS5_Math" name="text"><label>C.2130   </label><br>
+<input type="radio" id="" name="text"> <label>D.2500 </label><br>
+
+
+
+
+</div>
+
+</div>
+
+<div id="TechnologeySections" > 
+
+<h2>Technologey </h2>
+<div class="Techo-box-questions1">
+<h3> 1.What does "HTTP" stand for in web addresses?</h3>
+
+ <input type="radio" id="ANS1_Techno" name="text"><label>A.Hyper Text Transfer Protocol     </label>    <br>
+<input type="radio" id="" name="text"><label>B.High-Level Text Transmission Proces </label> <br>
+<input type="radio" id="" name="text"><label>C.Home Tool Transfer Protocol          </label> <br>
+<input type="radio" id="" name="text"><label>D.Hyperlink Technology Transfer Protocol       </label><br>
+
+<br>
+
+</div>
+
+
+<div class="Techo-box-questions2"> 
+<h3> 2.Which of these is NOT a programming language? </h3>
+
+<input type="radio" id="" name="text"><label>A.Java </label><br>
+<input type="radio" id="" name="text"><label>B. C#  </label><br>
+<input type="radio" id="ANS2_Techno" name="text"><label>C. HTML   </label><br>
+<input type="radio" id="" name="text"><label>D.C++   </label><br>
+
+
+</div>
+
+
+<div class="Techo-box-questions3">      
+
+<h3> 3. What does "AI" stand for in technology?   </h3>
+
+<input type="radio" id="" name="text"><label>A. Automated Intelligence  </label><br>
+<input type="radio" id="ANS3_Techno" name="text"> <label>B. Artificial Intelligence </label><br>
+<input type="radio" id="" name="text"> <label>C. Advanced Interface </label><br>
+<input type="radio" id="" name="text"><label>D. Algorithmic Input </label><br>
+
+
+</div>
+
+<div class="Techo-box-questions4">      
+
+<h3> 4.  What does "URL" stand for in web addresses?    </h3>
+
+<input type="radio" id="" name="text"><label>A. Universal Resource Locator </label><br>
+<input type="radio" id="ANS4_Techno" name="text"> <label>B. Uniform Resource Locator </label><br>
+<input type="radio" id="" name="text"> <label>C. Unified Request Locator </label><br>
+<input type="radio" id="" name="text"><label>D. Unique Reference Link </label><br>
+
+
+</div>
+
+
+
+<div class="Techo-box-questions5">      
+
+<h3> 5. Which of these is a programming language used for styling websites?   </h3>
+
+<input type="radio" id="" name="text"><label>A. JavaScript  </label><br>
+<input type="radio" id="" name="text"> <label>B. HTML </label><br>
+<input type="radio" id="ANS5_Techno" name="text"> <label>C. CSS </label><br>
+<input type="radio" id="" name="text"><label>D. Python </label><br>
+
+
+</div>
+
+</div>
+
+
+
+<div id="ScinceSections"> 
+
+   <h2>  Science   </h2>
+<div class="Science-box-questions1">
+<h3> 1.Which of Newton’s Laws states, "For every action, there is an equal and opposite reaction"? </h3>
+
+ <input type="radio" id="" name="text"><label>A. Newton’s First Law (Law of Inertia)     </label>    <br>
+<input type="radio" id="" name="text"><label>B. Newton’s Second Law (F=ma)</label> <br>
+<input type="radio" id="ANS1_Sc" name="text"><label>C. Newton’s Third Law (Action-Reaction)  </label> <br>
+<input type="radio" id="" name="text"><label>D. Newton’s Law of Gravitation   </label><br>
+
+<br>
+
+</div>
+
+
+
+
+
+<div class="Science-box-questions2"> 
+<h3> 2.What is the chemical symbol for gold? </h3>
+
+<input type="radio" id="" name="text"><label>A. Gd </label><br>
+<input type="radio" id="ANS2_Sc" name="text"><label>B. AU  </label><br>
+<input type="radio" id="" name="text"><label>C. Ag   </label><br>
+<input type="radio" id="" name="text"><label>D. Fe  </label><br>
+
+
+</div>
+
+
+<div class="Science-box-questions3">      
+
+<h3> 3.Which gas do plants absorb during photosynthesis?  </h3>
+
+<input type="radio" id="" name="text"><label>A. Oxygen (O₂)  </label><br>
+<input type="radio" id="" name="text"> <label>B. Nitrogen (N₂) </label><br>
+<input type="radio" id="ANS3_Sc" name="text"> <label>C.  Carbon Dioxide (CO₂)</label><br>
+<input type="radio" id="" name="text"><label>D.  Hydrogen (H₂)</label><br>
+
+
+</div>
+
+
+
+
+
+
+<div class="Science-box-questions4">      
+
+<h3> 4.  What is the unit of electrical resistance?  </h3>
+
+<input type="radio" id="" name="text"><label>A. Volt </label><br>
+<input type="radio" id="" name="text"> <label>B. Ampere </label><br>
+<input type="radio" id="ANS4_Sc" name="text"> <label>C. Ohm</label><br>
+<input type="radio" id="" name="text"><label>D. Watt </label><br>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="Science-box-questions5">      
+
+<h3> 5. Which planet is known as the "Red Planet"? </h3>
+
+<input type="radio" id="" name="text"><label>A. Venus  </label><br>
+<input type="radio" id="" name="text"> <label>B. Jupiter </label><br>
+<input type="radio" id="ANS5_Sc" name="text"> <label>C. Mars  </label><br>
+<input type="radio" id="" name="text"><label>D. Saturn </label><br>
+
+
+</div>
+
+</div>
+
+<!-- Filed to diplay the Score number at the end of game -->
+<h2 id="totalScore"> </h2>
+
+<br>
+
+<!-- Filed to diplay resulet if player wins or loos -->
+<h2 class="total"> </h2>
+
+<br> 
+
+
+
+<!-- Control of games -->
+<div id="controlButton">
+    <!-- Submit button will send the Answer and diplay effect bu sound and style -->
+<button id="Cheaked"> Submit</button>
+
+
+<!-- Next button to move to next Questions -->
+<button id="next"> Next</button>
+
+
+<!-- Reset button to reset the game -->
+<button id="reset"> Reset</button>
+
+
+</div>
+
+</body>
+</html>
